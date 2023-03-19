@@ -1,4 +1,4 @@
-# Yanpf88880000.github.io
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,17 +26,15 @@
         animation: spin 4s linear infinite;
         border-radius: 50%;
         overflow: hidden;
-
+	}
+	@keyframes spin {
+		from {
+			transform: translate(-50%, -50%) rotate(0deg);
 		}
-
-		@keyframes spin {
-			from {
-				transform: translate(-50%, -50%) rotate(0deg);
-			}
-			to {
-				transform: translate(-50%, -50%) rotate(360deg);
-			}
+		to {
+			transform: translate(-50%, -50%) rotate(360deg);
 		}
+	}
       body {
         background-color: #f5f5f5;
         /* background-color: #000; */
